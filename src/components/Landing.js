@@ -8,7 +8,7 @@ import {
   StyledP,
   TextContainer,
   Marked,
-} from "./styles/Section.styled";
+} from "./styles/Landingstyled";
 import stairs from "../assets/stairs.jpg";
 import StyledButton from "./styles/Button.styled";
 

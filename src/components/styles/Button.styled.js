@@ -6,9 +6,12 @@ const StyledButton = styled.button`
   font-weight: 600;
   margin: 10px;
   padding: 18px;
+  transition: all ease-in 0.2s;
 
   &:hover {
+    background-color: ${({ theme }) => theme.colors.accent};
     cursor: pointer;
+    color: white;
   }
 `;
 

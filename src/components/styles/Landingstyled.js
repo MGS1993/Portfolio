@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
 export const BlurbContainer = styled.div`
+  align-items: center;
   display: flex;
   justify-content: center;
   margin: 0 auto;
@@ -117,6 +118,11 @@ export const StyledP = styled.p`
 export const TextContainer = styled.div`
   display: flex;
   flex-direction: column;
+
+  & > h1,
+  p {
+    margin: 15px 0px;
+  }
 
   @media (max-width: ${({ theme }) => theme.mobile}) {
     & > * {
