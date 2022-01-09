@@ -7,6 +7,7 @@ const StyledButton = styled.button`
   margin: 10px;
   padding: 18px;
   transition: all ease-in 0.2s;
+  width: ${({ width }) => width};
 
   &:hover {
     background-color: ${({ theme }) => theme.colors.accent};

@@ -10,7 +10,7 @@ import {
   Marked,
 } from "./styles/Landingstyled";
 import stairs from "../assets/stairs.jpg";
-import StyledButton from "./styles/Button.styled";
+import ButtonLink from "./ButtonLink";
 
 const Landing = () => {
   return (
@@ -24,7 +24,7 @@ const Landing = () => {
               A <Marked>full-stack developer</Marked> based in Houston, Texas.
             </StyledP>
             <FadeIn>
-              <StyledButton>My Projects</StyledButton>
+              <ButtonLink href="https://github.com/MGS1993" title="My Github" />
             </FadeIn>
           </TextContainer>
         </BlurbContainer>

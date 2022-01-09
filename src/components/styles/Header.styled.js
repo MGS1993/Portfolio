@@ -1,7 +1,6 @@
 import styled from "styled-components";
 
 export const StyledHeader = styled.header`
-  align-items: center;
   /* background-color: green; */
   display: flex;
   justify-content: space-between;
@@ -13,15 +12,29 @@ export const StyledHeader = styled.header`
 `;
 
 export const StyledNav = styled.nav`
+  align-items: center;
+
+  cursor: pointer;
   display: flex;
   font-weight: 500;
   justify-content: space-evenly;
 
   & > ul {
+    align-items: center;
     display: flex;
     font-size: 1.6rem;
     justify-content: space-between;
     list-style: none;
+  }
+
+  & > ul :first-child {
+    display: flex;
+    align-items: center;
+  }
+
+  & > ul :first-child:hover {
+    color: blue;
+    transition: color 0.3s linear;
   }
 
   & > ul > li {

@@ -1,6 +1,8 @@
 import { StyledHeader, StyledNav, BurgerWrapper } from "./styles/Header.styled";
 import { GiHamburgerMenu } from "react-icons/gi";
 
+import { BsLinkedin } from "react-icons/bs";
+
 import LogoContainer from "./LogoContainer";
 
 const Header = () => {
@@ -9,7 +11,9 @@ const Header = () => {
       <LogoContainer />
       <StyledNav>
         <ul>
-          <li>Home</li>
+          <l1>
+            <BsLinkedin />
+          </l1>
           <li>Work</li>
           <li>About</li>
           <li>Contact</li>
