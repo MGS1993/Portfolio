@@ -14,12 +14,12 @@ import TechText from "./TechText";
 const Projects = () => {
   return (
     <ProjectContainer>
-      <ProjectListing>
+      <ProjectListing bgColor="#6969d429">
         <ProjectBriefing>
           <h1>MovieKnights</h1>
           <h3>Project Brief</h3>
           <p>
-            This was my attempt at a React-Native app that let it's users
+            This was my attempt at a React-Native app that lets it's users
             quickly determine where to stream popular TV shows and Movies.
             Currently it also has a WIP reminder of new episodes via expo push
             notifications.

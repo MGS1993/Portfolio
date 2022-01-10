@@ -4,12 +4,18 @@ export const ProjectContainer = styled.section`
   background-color: #ececec;
   display: flex;
   flex-direction: column;
-  padding: 20px 0px;
+
+  //changed to min-width for desktop application only
+  @media (min-width: ${({ theme }) => theme.mobile}) {
+    & > div:nth-child(odd) {
+      flex-direction: row-reverse;
+    }
+  }
 `;
 
 export const ProjectListing = styled.div`
+  background-color: ${({ bgColor }) => bgColor};
   display: flex;
-  margin-bottom: 15px;
 
   @media (max-width: ${({ theme }) => theme.mobile}) {
     flex-direction: column;
@@ -50,6 +56,7 @@ export const ProjectScreens = styled.div`
   display: flex;
   justify-content: center;
   flex: 1;
+  /* padding: 10px 0px; */
 `;
 
 export const StackContainer = styled.div`

@@ -5,6 +5,7 @@ import AboutMe from "./components/AboutMe";
 import Header from "./components/Header";
 import Landing from "./components/Landing";
 import Projects from "./components/Projects";
+import Footer from "./components/Footer";
 
 const theme = {
   colors: {
@@ -23,6 +24,7 @@ function App() {
           <AboutMe />
           <Projects />
         </main>
+        <Footer />
       </div>
     </ThemeProvider>
   );
