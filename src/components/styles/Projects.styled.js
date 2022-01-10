@@ -56,7 +56,21 @@ export const ProjectScreens = styled.div`
   display: flex;
   justify-content: center;
   flex: 1;
-  /* padding: 10px 0px; */
+
+  /* targets non mobile images that use div>img instead of slider */
+  & > div > img {
+    padding: 10%;
+    width: 100%;
+  }
+
+  @media (max-width: ${({ theme }) => theme.mobile}) {
+    margin: 30px;
+    padding-left: 0px;
+
+    & > div > img {
+      padding: 0;
+    }
+  }
 `;
 
 export const StackContainer = styled.div`

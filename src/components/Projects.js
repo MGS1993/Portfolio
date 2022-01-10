@@ -8,7 +8,11 @@ import {
 import Slider from "./Slider";
 
 import ButtonLink from "./ButtonLink";
-import { TallyImages, MovieKnightsImages } from "../util/SliderImageSets";
+import {
+  TallyImages,
+  MovieKnightsImages,
+  PortfolioImages,
+} from "../util/SliderImageSets";
 import TechText from "./TechText";
 
 const Projects = () => {
@@ -67,6 +71,36 @@ const Projects = () => {
         </ProjectBriefing>
         <ProjectScreens>
           <Slider imageSet={TallyImages} />
+        </ProjectScreens>
+      </ProjectListing>
+
+      <ProjectListing bgColor="#ebd4ab">
+        <ProjectBriefing>
+          <h1>Portfolio</h1>
+          <h3>Project Brief</h3>
+          <p>
+            A portfolio website created to showcase my current and future
+            projects.
+          </p>
+          <StackContainer>
+            <TechText text="React" />
+            <TechText text="CSS3" />
+            <TechText text="Styled Components" />
+            <TechText text="Framer Motion" />
+          </StackContainer>
+          <ButtonLink
+            href="https://github.com/MGS1993/Portfolio"
+            width="200px"
+            title="Github Repo"
+          />
+        </ProjectBriefing>
+        <ProjectScreens>
+          <div>
+            <img
+              src={PortfolioImages[0]}
+              alt="Homepage screenshot of my portfolio site"
+            />
+          </div>
         </ProjectScreens>
       </ProjectListing>
     </ProjectContainer>

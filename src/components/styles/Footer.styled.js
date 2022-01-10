@@ -8,7 +8,7 @@ export const StyledFooter = styled.footer`
     rgba(116, 148, 180, 1) 100%
   );
   color: #fff;
-  padding: 20px 0px 100px;
+  padding: 20px 0px 80px;
 
   & > div {
     align-items: center;
@@ -19,9 +19,11 @@ export const StyledFooter = styled.footer`
 
   & > div > h1 {
     font-size: 38px;
+    margin-bottom: 20px;
   }
   & > div > p {
     font-size: 20px;
+    margin-bottom: 20px;
   }
 
   @media (max-width: ${({ theme }) => theme.mobile}) {

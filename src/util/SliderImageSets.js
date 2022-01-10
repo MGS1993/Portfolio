@@ -5,6 +5,7 @@ import {
   vendorSS,
   tallyMenu,
   tallyHome,
+  portfolioSS,
 } from "../assets/screenshots/index";
 
 export const MovieKnightsImages = [
@@ -30,3 +31,5 @@ export const TallyImages = [
     url: tallyMenu,
   },
 ];
+
+export const PortfolioImages = [portfolioSS];
