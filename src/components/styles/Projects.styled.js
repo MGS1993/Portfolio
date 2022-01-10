@@ -4,6 +4,8 @@ export const ProjectContainer = styled.section`
   background-color: #ececec;
   display: flex;
   flex-direction: column;
+  margin: 0 auto;
+  max-width: 1920px;
 
   //changed to min-width for desktop application only
   @media (min-width: ${({ theme }) => theme.mobile}) {
@@ -14,11 +16,13 @@ export const ProjectContainer = styled.section`
 `;
 
 export const ProjectListing = styled.div`
-  background-color: ${({ bgColor }) => bgColor};
   display: flex;
+  background-color: ${({ bgColor }) => bgColor};
+  padding: 0px 150px;
 
   @media (max-width: ${({ theme }) => theme.mobile}) {
     flex-direction: column;
+    padding: 0px;
 
     & > div #button-link {
       display: flex;
@@ -67,17 +71,29 @@ export const ProjectScreens = styled.div`
   justify-content: center;
   flex: 1;
 
-  /* targets non mobile images that use div>img instead of slider */
-  & > div > img {
-    padding: 10%;
-    width: 100%;
+  & > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
 
   @media (max-width: ${({ theme }) => theme.mobile}) {
     margin: 30px;
     padding-left: 0px;
+    max-height: ${({ maxHeight }) => maxHeight};
+  }
+`;
 
-    & > div > img {
+export const ImageContainer = styled.div`
+  min-height: 500px;
+
+  & > img {
+    width: 100%;
+  }
+
+  @media (max-width: ${({ theme }) => theme.mobile}) {
+    min-height: 170px;
+    & > img {
       padding: 0;
     }
   }
