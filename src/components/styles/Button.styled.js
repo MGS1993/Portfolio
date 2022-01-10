@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 const StyledButton = styled.button`
   border: 3px solid ${({ theme }) => theme.colors.accent};
+  border-radius: 6px;
   font-size: 1.2rem;
   font-weight: 600;
   margin: 10px;

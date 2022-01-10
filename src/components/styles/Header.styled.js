@@ -30,6 +30,8 @@ export const StyledNav = styled.nav`
   & > ul :first-child {
     display: flex;
     align-items: center;
+    height: 42px;
+    width: 42px;
   }
 
   & > ul :first-child:hover {

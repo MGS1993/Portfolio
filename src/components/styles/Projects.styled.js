@@ -19,6 +19,11 @@ export const ProjectListing = styled.div`
 
   @media (max-width: ${({ theme }) => theme.mobile}) {
     flex-direction: column;
+
+    & > div #button-link {
+      display: flex;
+      justify-content: center;
+    }
   }
 `;
 
@@ -48,6 +53,11 @@ export const ProjectBriefing = styled.div`
   @media (max-width: ${({ theme }) => theme.mobile}) {
     margin: 30px;
     padding-left: 0px;
+
+    & > h1,
+    h3 {
+      text-align: center;
+    }
   }
 `;
 
@@ -78,7 +88,7 @@ export const StackContainer = styled.div`
   flex-wrap: wrap;
 
   & > div {
-    margin: 0 8px;
+    margin: 5px 8px;
   }
 
   @media (max-width: ${({ theme }) => theme.mobile}) {

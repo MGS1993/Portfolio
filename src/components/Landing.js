@@ -11,6 +11,8 @@ import {
 } from "./styles/Landingstyled";
 import stairs from "../assets/stairs.jpg";
 import ButtonLink from "./ButtonLink";
+import resume from "../assets/Manuel_Guzman_Resume.pdf";
+import { FlexRow } from "./styles/Flex.styled";
 
 const Landing = () => {
   return (
@@ -24,7 +26,13 @@ const Landing = () => {
               A <Marked>full-stack developer</Marked> based in Houston, Texas.
             </StyledP>
             <FadeIn>
-              <ButtonLink href="https://github.com/MGS1993" title="My Github" />
+              <FlexRow>
+                <ButtonLink
+                  href="https://github.com/MGS1993"
+                  title="My Github"
+                />
+                <ButtonLink title="Resume" href={resume} download />
+              </FlexRow>
             </FadeIn>
           </TextContainer>
         </BlurbContainer>

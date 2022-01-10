@@ -11,7 +11,7 @@ import {
 const Slider = ({ imageSet }) => {
   return (
     <MainContainer>
-      <Slide>
+      <Slide transitionDuration={650}>
         {imageSet.map((image, index) => (
           <SlideContainer key={index}>
             <IndividualSlide

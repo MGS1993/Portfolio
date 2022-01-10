@@ -11,7 +11,7 @@ const Footer = () => {
           I'm eager for new challenges and opportunities. Please send an email
           if you would like to chat with me.
         </p>
-        <ButtonLink title="Email Me" />
+        <ButtonLink title="Email Me" href="mailto:m_guzman74@yahoo.com" />
       </Container>
     </StyledFooter>
   );

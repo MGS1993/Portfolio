@@ -35,8 +35,10 @@ const Projects = () => {
             <TechText text="NodeJS" />
             <TechText text="Expo" />
             <TechText text="Express" />
+            <TechText text="Authentication" />
           </StackContainer>
           <ButtonLink
+            id="button-link"
             href="https://github.com/MGS1993/MovieKnight-React-Native"
             width="200px"
             title="Github Repo"
@@ -52,8 +54,8 @@ const Projects = () => {
           <h1>Tally</h1>
           <h3>Project Brief</h3>
           <p>
-            A small app I made to help deobfuscate shared expenses. A fullstack
-            app utilizing MongoDB.
+            A Mobile centric app I created in order to help deobfuscate shared
+            expenses. A fullstack app utilizing MongoDB.
           </p>
           <StackContainer>
             <TechText text="React" />
@@ -64,6 +66,7 @@ const Projects = () => {
             <TechText text="Express" />
           </StackContainer>
           <ButtonLink
+            id="button-link"
             href="https://github.com/MGS1993/Tally"
             width="200px"
             title="Github Repo"
@@ -89,6 +92,7 @@ const Projects = () => {
             <TechText text="Framer Motion" />
           </StackContainer>
           <ButtonLink
+            id="button-link"
             href="https://github.com/MGS1993/Portfolio"
             width="200px"
             title="Github Repo"

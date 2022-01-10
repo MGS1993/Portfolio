@@ -20,9 +20,9 @@ const Header = () => {
               <BsLinkedin />
             </a>
           </li>
-          <li>Work</li>
+          {/* <li>Work</li>
           <li>About</li>
-          <li>Contact</li>
+          <li>Contact</li> */}
         </ul>
       </StyledNav>
       <BurgerWrapper>
