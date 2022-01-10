@@ -7,35 +7,15 @@ import {
   IndividualSlide,
   MainContainer,
 } from "./styles/ProjectSlider.styled";
-import {
-  homeSS,
-  loginSS,
-  searchSS,
-  vendorSS,
-} from "../assets/screenshots/MKScreenshots/index";
-const slideImages = [
-  {
-    url: homeSS,
-  },
-  {
-    url: loginSS,
-  },
-  {
-    url: vendorSS,
-  },
-  {
-    url: searchSS,
-  },
-];
 
-const Slider = () => {
+const Slider = ({ imageSet }) => {
   return (
     <MainContainer>
       <Slide>
-        {slideImages.map((slideImage, index) => (
+        {imageSet.map((image, index) => (
           <SlideContainer key={index}>
             <IndividualSlide
-              style={{ backgroundImage: `url(${slideImage.url})` }}
+              style={{ backgroundImage: `url(${image.url})` }}
             ></IndividualSlide>
           </SlideContainer>
         ))}

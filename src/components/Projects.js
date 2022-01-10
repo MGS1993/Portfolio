@@ -6,10 +6,11 @@ import {
   StackContainer,
 } from "./styles/Projects.styled";
 import Slider from "./Slider";
-
 import { FaReact, FaCss3, FaNode } from "react-icons/fa";
 import { DiMongodb } from "react-icons/di";
+
 import ButtonLink from "./ButtonLink";
+import { TallyImages, MovieKnightsImages } from "../util/SliderImageSets";
 
 const Projects = () => {
   return (
@@ -37,7 +38,7 @@ const Projects = () => {
           />
         </ProjectBriefing>
         <ProjectScreens>
-          <Slider />
+          <Slider imageSet={MovieKnightsImages} />
         </ProjectScreens>
       </ProjectListing>
     </ProjectContainer>
