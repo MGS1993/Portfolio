@@ -53,10 +53,15 @@ export const ProjectScreens = styled.div`
 
 export const StackContainer = styled.div`
   display: flex;
+  flex-wrap: wrap;
 
-  & > svg {
-    height: 45px;
-    margin: 0 15px;
-    width: 45px;
+  & > div {
+    margin: 0 8px;
+  }
+
+  @media (max-width: ${({ theme }) => theme.mobile}) {
+    & > div {
+      margin: 5px;
+    }
   }
 `;

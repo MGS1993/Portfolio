@@ -6,11 +6,10 @@ import {
   StackContainer,
 } from "./styles/Projects.styled";
 import Slider from "./Slider";
-import { FaReact, FaCss3, FaNode } from "react-icons/fa";
-import { DiMongodb } from "react-icons/di";
 
 import ButtonLink from "./ButtonLink";
 import { TallyImages, MovieKnightsImages } from "../util/SliderImageSets";
+import TechText from "./TechText";
 
 const Projects = () => {
   return (
@@ -26,10 +25,12 @@ const Projects = () => {
             notifications.
           </p>
           <StackContainer>
-            <FaReact color="#61DBFB" />
-            <DiMongodb color="#6CA25D" />
-            <FaCss3 color="#254BDD" />
-            <FaNode color="#64995F" />
+            <TechText text="React Native" />
+            <TechText text="MongoDB" />
+            <TechText text="CSS3" />
+            <TechText text="NodeJS" />
+            <TechText text="Expo" />
+            <TechText text="Express" />
           </StackContainer>
           <ButtonLink
             href="https://github.com/MGS1993/MovieKnight-React-Native"
@@ -39,6 +40,33 @@ const Projects = () => {
         </ProjectBriefing>
         <ProjectScreens>
           <Slider imageSet={MovieKnightsImages} />
+        </ProjectScreens>
+      </ProjectListing>
+
+      <ProjectListing>
+        <ProjectBriefing>
+          <h1>Tally</h1>
+          <h3>Project Brief</h3>
+          <p>
+            A small app I made to help deobfuscate shared expenses. A fullstack
+            app utilizing MongoDB.
+          </p>
+          <StackContainer>
+            <TechText text="React" />
+            <TechText text="MongoDB" />
+            <TechText text="CSS3" />
+            <TechText text="Styled Components" />
+            <TechText text="NodeJS" />
+            <TechText text="Express" />
+          </StackContainer>
+          <ButtonLink
+            href="https://github.com/MGS1993/Tally"
+            width="200px"
+            title="Github Repo"
+          />
+        </ProjectBriefing>
+        <ProjectScreens>
+          <Slider imageSet={TallyImages} />
         </ProjectScreens>
       </ProjectListing>
     </ProjectContainer>
