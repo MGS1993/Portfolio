@@ -9,6 +9,7 @@ export const ProjectContainer = styled.section`
 
 export const ProjectListing = styled.div`
   display: flex;
+  margin-bottom: 15px;
 
   @media (max-width: ${({ theme }) => theme.mobile}) {
     flex-direction: column;
