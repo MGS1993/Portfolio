@@ -11,9 +11,15 @@ const Header = () => {
       <LogoContainer />
       <StyledNav>
         <ul>
-          <l1>
-            <BsLinkedin />
-          </l1>
+          <li>
+            <a
+              href="https://www.linkedin.com/in/manuel-guzman-li/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <BsLinkedin />
+            </a>
+          </li>
           <li>Work</li>
           <li>About</li>
           <li>Contact</li>
