@@ -18,16 +18,11 @@ export const ProjectContainer = styled.section`
 export const ProjectListing = styled.div`
   display: flex;
   background-color: ${({ bgColor }) => bgColor};
-  padding: 0px 150px;
+  padding: 10px 150px;
 
   @media (max-width: ${({ theme }) => theme.mobile}) {
     flex-direction: column;
     padding: 0px;
-
-    & > div #button-link {
-      display: flex;
-      justify-content: center;
-    }
   }
 `;
 
