@@ -49,7 +49,7 @@ const Projects = () => {
         </ProjectScreens>
       </ProjectListing>
 
-      <ProjectListing bgColor="#f3fdff">
+      <ProjectListing bgColor="#d4ebef">
         <ProjectBriefing>
           <h1>Tally</h1>
           <h3>Project Brief</h3>

@@ -56,7 +56,6 @@ export const LargeFont = styled.h1`
 export const Marked = styled.mark`
   background-color: #6969d4;
   display: inline-block;
-  vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
   box-shadow: 0 0 1px rgba(0, 0, 0, 0);
