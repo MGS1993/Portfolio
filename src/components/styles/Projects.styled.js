@@ -18,7 +18,7 @@ export const ProjectContainer = styled.section`
 export const ProjectListing = styled.div`
   display: flex;
   background-color: ${({ bgColor }) => bgColor};
-  padding: 10px 150px;
+  padding: 10px 190px;
 
   @media (max-width: ${({ theme }) => theme.mobile}) {
     flex-direction: column;

@@ -21,12 +21,12 @@ const Projects = () => {
     <ProjectContainer>
       <ProjectListing bgColor="#6969d429">
         <ProjectBriefing>
-          <h1>MovieKnights</h1>
+          <h1>MovieKnight</h1>
           <h3>Project Brief</h3>
           <p>
-            This was my attempt at a React-Native app that lets it's users
-            quickly determine where to stream popular TV shows and Movies.
-            Currently it also has a WIP reminder of new episodes via expo push
+            This was my attempt at a React-Native app that lets its users
+            quickly determine where to stream popular TV shows and movies.
+            Currently, it also has a WIP reminder of new episodes via expo push
             notifications.
           </p>
           <StackContainer>
@@ -54,8 +54,8 @@ const Projects = () => {
           <h1>Tally</h1>
           <h3>Project Brief</h3>
           <p>
-            A Mobile centric app I created in order to help deobfuscate shared
-            expenses. This is a fullstack app utilizing MongoDB.
+            A mobile-centric app I created to help deobfuscate shared expenses.
+            This is a full-stack app utilizing MongoDB.
           </p>
           <StackContainer>
             <TechText text="React" />
