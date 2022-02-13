@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.541fff00.css",
+    "main.js": "/Portfolio/static/js/main.f585659f.js",
+    "static/media/stairs.jpg": "/Portfolio/static/media/stairs.c0ce194431c23d31fc1a.jpg",
+    "static/media/vendorSS.png": "/Portfolio/static/media/vendorSS.d0ddb1527df8e4fdd2c1.png",
+    "static/media/portfolio.png": "/Portfolio/static/media/portfolio.9d17912e252afe12cd4a.png",
+    "static/media/homeSS.png": "/Portfolio/static/media/homeSS.b2e085623412dc72a225.png",
+    "static/media/loginSS.png": "/Portfolio/static/media/loginSS.e4b58ea65c0549e00b6d.png",
+    "static/media/searchSS.png": "/Portfolio/static/media/searchSS.9fa8c7068a04667d81cf.png",
+    "static/media/Manuel_Guzman_Resume.pdf": "/Portfolio/static/media/Manuel_Guzman_Resume.db2769b9b90034cf2287.pdf",
+    "static/media/MGlogo.png": "/Portfolio/static/media/MGlogo.014872356da1e790d8e5.png",
+    "static/media/tallyHome.png": "/Portfolio/static/media/tallyHome.f48dc16b4c0c1775d522.png",
+    "index.html": "/Portfolio/index.html",
+    "main.541fff00.css.map": "/Portfolio/static/css/main.541fff00.css.map",
+    "main.f585659f.js.map": "/Portfolio/static/js/main.f585659f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.541fff00.css",
+    "static/js/main.f585659f.js"
+  ]
+}
