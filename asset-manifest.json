@@ -1,22 +1,23 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.541fff00.css",
-    "main.js": "/Portfolio/static/js/main.f585659f.js",
-    "static/media/stairs.jpg": "/Portfolio/static/media/stairs.c0ce194431c23d31fc1a.jpg",
-    "static/media/vendorSS.png": "/Portfolio/static/media/vendorSS.d0ddb1527df8e4fdd2c1.png",
-    "static/media/portfolio.png": "/Portfolio/static/media/portfolio.9d17912e252afe12cd4a.png",
-    "static/media/homeSS.png": "/Portfolio/static/media/homeSS.b2e085623412dc72a225.png",
-    "static/media/loginSS.png": "/Portfolio/static/media/loginSS.e4b58ea65c0549e00b6d.png",
-    "static/media/searchSS.png": "/Portfolio/static/media/searchSS.9fa8c7068a04667d81cf.png",
-    "static/media/Manuel_Guzman_Resume.pdf": "/Portfolio/static/media/Manuel_Guzman_Resume.db2769b9b90034cf2287.pdf",
+    "main.js": "/Portfolio/static/js/main.4953143f.js",
+    "static/media/bg.avif": "/Portfolio/static/media/bg.fc77e745a4a83fbc246f.avif",
+    "static/media/homeSS.avif": "/Portfolio/static/media/homeSS.a9fa218570846fa62ef6.avif",
+    "static/media/vendorSS.avif": "/Portfolio/static/media/vendorSS.253e59a09f5b87bb0eb6.avif",
+    "static/media/portfolio.avif": "/Portfolio/static/media/portfolio.331e08d1a66348175932.avif",
+    "static/media/searchSS.avif": "/Portfolio/static/media/searchSS.c6264952b4ad1f128071.avif",
+    "static/media/Manuel_Guzman_Resume.pdf": "/Portfolio/static/media/Manuel_Guzman_Resume.417a514582b887bb87f4.pdf",
     "static/media/MGlogo.png": "/Portfolio/static/media/MGlogo.014872356da1e790d8e5.png",
-    "static/media/tallyHome.png": "/Portfolio/static/media/tallyHome.f48dc16b4c0c1775d522.png",
+    "static/media/loginSS.avif": "/Portfolio/static/media/loginSS.fd6e51f54822d9da7802.avif",
+    "static/media/tallyHome.avif": "/Portfolio/static/media/tallyHome.2ac9d487586825503590.avif",
+    "static/media/tallyMenu.avif": "/Portfolio/static/media/tallyMenu.e4cd1e03d660a2892e82.avif",
     "index.html": "/Portfolio/index.html",
     "main.541fff00.css.map": "/Portfolio/static/css/main.541fff00.css.map",
-    "main.f585659f.js.map": "/Portfolio/static/js/main.f585659f.js.map"
+    "main.4953143f.js.map": "/Portfolio/static/js/main.4953143f.js.map"
   },
   "entrypoints": [
     "static/css/main.541fff00.css",
-    "static/js/main.f585659f.js"
+    "static/js/main.4953143f.js"
   ]
 }
