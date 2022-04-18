@@ -9,14 +9,14 @@ import {
   TextContainer,
   Marked,
 } from "./styles/Landingstyled";
-import stairs from "../assets/stairs.jpg";
+import bg from "../assets/bg.avif";
 import ButtonLink from "./ButtonLink";
 import resume from "../assets/Manuel_Guzman_Resume.pdf";
 import { FlexRow } from "./styles/Flex.styled";
 
 const Landing = () => {
   return (
-    <LandingContainer backGroundImage={stairs}>
+    <LandingContainer backGroundImage={bg}>
       <SlideIn>
         <BlurbContainer>
           <FaLaptopCode size={180} />

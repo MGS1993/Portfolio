@@ -1,10 +1,15 @@
 import styled from "styled-components";
 
 export const ProjectContainer = styled.section`
-  background-color: #ececec;
+  background: rgb(198, 197, 197);
+  background: linear-gradient(
+    0deg,
+    rgba(198, 197, 197, 1) 0%,
+    rgba(236, 236, 236, 1) 100%
+  );
   display: flex;
   flex-direction: column;
-  margin: 0 auto;
+  padding-bottom: 20px;
   max-width: 1920px;
 
   //changed to min-width for desktop application only
@@ -18,10 +23,15 @@ export const ProjectContainer = styled.section`
 export const ProjectListing = styled.div`
   display: flex;
   background-color: ${({ bgColor }) => bgColor};
-  padding: 10px 190px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  margin: 10px 10%;
+  padding: 20px 20px;
 
   @media (max-width: ${({ theme }) => theme.mobile}) {
     flex-direction: column;
+    border: none;
+    margin: 0px;
     padding: 0px;
   }
 `;

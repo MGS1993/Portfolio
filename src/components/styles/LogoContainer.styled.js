@@ -5,6 +5,7 @@ export const StyledContainer = styled.div`
   width: 40px;
 
   & > a > img {
+    height: 40px;
     width: 40px;
   }
 `;

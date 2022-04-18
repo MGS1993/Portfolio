@@ -1,12 +1,12 @@
-import homeSS from "./MKScreenshots/homeSS.png";
-import loginSS from "./MKScreenshots/loginSS.png";
-import searchSS from "./MKScreenshots/searchSS.png";
-import vendorSS from "./MKScreenshots/vendorSS.png";
+import homeSS from "./MKScreenshots/homeSS.avif";
+import loginSS from "./MKScreenshots/loginSS.avif";
+import searchSS from "./MKScreenshots/searchSS.avif";
+import vendorSS from "./MKScreenshots/vendorSS.avif";
 
-import tallyHome from "./tallyScreenshots/tallyHome.png";
-import tallyMenu from "./tallyScreenshots/tallyMenu.png";
+import tallyHome from "./tallyScreenshots/tallyHome.avif";
+import tallyMenu from "./tallyScreenshots/tallyMenu.avif";
 
-import portfolioSS from "./portfolio.png";
+import portfolioSS from "./portfolio.avif";
 
 export {
   homeSS,
