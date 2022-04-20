@@ -15,6 +15,7 @@ import {
   PortfolioImages,
 } from "../util/SliderImageSets";
 import TechText from "./TechText";
+import { FlexRow } from "./styles/Flex.styled";
 
 const Projects = () => {
   return (
@@ -65,11 +66,18 @@ const Projects = () => {
             <TechText text="NodeJS" />
             <TechText text="Express" />
           </StackContainer>
-          <ButtonLink
-            href="https://github.com/MGS1993/Tally"
-            width="200px"
-            title="Github Repo"
-          />
+          <FlexRow>
+            <ButtonLink
+              href="https://github.com/MGS1993/Tally"
+              width="200px"
+              title="Github Repo"
+            />
+            <ButtonLink
+              href="https://tallyexpense.herokuapp.com/"
+              width="200px"
+              title="Demo"
+            />
+          </FlexRow>
         </ProjectBriefing>
         <ProjectScreens>
           <Slider imageSet={TallyImages} />

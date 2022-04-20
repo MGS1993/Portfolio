@@ -5,6 +5,7 @@ export const FlexRow = styled.div`
 
   @media (max-width: ${({ theme }) => theme.mobile}) {
     justify-content: space-evenly;
+    flex-wrap: wrap;
   }
 `;
 
